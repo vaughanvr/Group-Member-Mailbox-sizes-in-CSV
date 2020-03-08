@@ -14,7 +14,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # It Creates a list of members and their mailbox sizes in temp folder 
-# this can only be run in powershell for exchange on premise , to run at the prompt type ./mailbox_size.ps1
+# this can only be run in powershell for exchange on premise
+# To run at the prompt type ./mailbox_size.ps1 and hit enter.
 
 
 $GroupName = Read-Host "Kindly provide the name of the Distribution Group"
